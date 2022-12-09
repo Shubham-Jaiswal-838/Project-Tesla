@@ -110,6 +110,27 @@ html,body{
     background-color: white;
     word-spacing: 6px;
     line-height: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media(max-width:599px){
+   .login div{
+      display: block;
+    }
+    .btn div{
+        align-items: center;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 520px;
+        height: 33px;
+        cursor: pointer;
+        border-radius:4px;
+        padding: 2px 24px;
+    }
+    .blank{
+        height: 110px;
+    }
+    .login span{
+        line-height:2.3;
+    }
 }
 
